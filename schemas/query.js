@@ -13,7 +13,7 @@ const query = new GraphQLObjectType({
     todo: {
       type: TodoType,
       args: {
-        id: {type: new GraphQLNonNull(GraphQLID)}
+        id: { type: new GraphQLNonNull(GraphQLID) }
       },
       resolve: getTodoByID
     }
