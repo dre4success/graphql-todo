@@ -9,7 +9,7 @@ import {App} from './components/App';
 import registerServiceWorker from './registerServiceWorker';
 
 const client = new ApolloClient({
-  link: new HttpLink(),
+  link: new HttpLink({uri: 'http://localhost:2020/graphql'}),
   cache: new InMemoryCache()
 });
 

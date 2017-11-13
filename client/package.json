@@ -2,11 +2,6 @@
   "name": "client",
   "version": "0.1.0",
   "private": true,
-  "proxy": {
-    "/graphql": {
-      "target": "http://localhost:2020"
-    }
-  },
   "dependencies": {
     "apollo-cache-inmemory": "^1.1.0",
     "apollo-client": "^2.0.2",
