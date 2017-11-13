@@ -13,7 +13,7 @@ class TodoInput extends Component {
     this.setState(() => ({ task }));
   };
 
-  Submit = e => {
+  Enter = e => {
     if (e.key === 'Enter') {
       this.props
         .mutate({

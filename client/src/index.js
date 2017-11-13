@@ -5,7 +5,7 @@ import { ApolloProvider } from 'react-apollo';
 import { ApolloClient } from 'apollo-client';
 import { HttpLink } from 'apollo-link-http';
 import './index.css';
-import App from './components/App';
+import {App} from './components/App';
 import registerServiceWorker from './registerServiceWorker';
 
 const client = new ApolloClient({
