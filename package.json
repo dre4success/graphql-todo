@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "A simple todo app with apis written in graphql",
   "main": "index.js",
+  "engines": {
+    "node": "8.9.0"
+  },
   "repository": "https://github.com/dre4success/graphql-todo",
   "author": "Damilare Joseph",
   "license": "MIT",
