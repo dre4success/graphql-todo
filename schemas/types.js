@@ -6,7 +6,7 @@ const TodoType = new GraphQLObjectType({
   fields: () => ({
     id: { type: GraphQLID },
     name: { type: GraphQLString },
-    completed: { type: GraphQLString },
+    completed: { type: GraphQLBoolean },
     createdAt: { type: GraphQLString }
   })
 });
