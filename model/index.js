@@ -6,7 +6,7 @@ mongoose.set('debug', true);
 dotenv.config({ path: '.env' });
 
 mongoose
-  .connect(process.env.MONGO_URI, {
+  .connect('mongodb://localhost/todo-new', {
     useMongoClient: true
   })
   .catch(err => {

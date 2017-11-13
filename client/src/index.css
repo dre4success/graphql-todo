@@ -38,7 +38,7 @@ header h2 {
   outline: none;
   font: 300 28px 'Ubuntu', sans-serif;
   padding: 20px;
-  color: #c0c9d3;
+  color: #34495e;
 }
 
 .list {
@@ -61,7 +61,7 @@ header h2 {
   line-height: 60px;
   font-size: 20px;
   padding: 0 20px;
-  color: #e9f0f7;
+  color: #34495e;
   transition: all 0.3s ease;
 }
 

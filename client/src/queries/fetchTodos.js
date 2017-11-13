@@ -3,8 +3,8 @@ import gql from 'graphql-tag';
 const query = gql`
   {
     todos {
-      id,
-      name,
+      id
+      name
       completed
     }
   }
