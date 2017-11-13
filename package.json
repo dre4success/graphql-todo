@@ -1,0 +1,22 @@
+{
+  "name": "prod-todo",
+  "version": "1.0.0",
+  "description": "A simple todo app with apis written in graphql",
+  "main": "index.js",
+  "repository": "https://github.com/dre4success/graphql-todo",
+  "author": "Damilare Joseph",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "concurrently": "^3.5.0",
+    "express": "^4.16.2",
+    "express-graphql": "^0.6.11",
+    "graphql": "^0.11.7",
+    "mongoose": "^4.13.2",
+    "nodemon": "^1.12.1"
+  }
+}
