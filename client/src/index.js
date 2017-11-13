@@ -8,8 +8,10 @@ import './index.css';
 import {App} from './components/App';
 import registerServiceWorker from './registerServiceWorker';
 
+const port = process.env.PORT || 2020;
+
 const client = new ApolloClient({
-  link: new HttpLink({uri: 'http://localhost:2020/graphql'}),
+  link: new HttpLink({uri: `http://localhost:${port}/graphql`}),
   cache: new InMemoryCache()
 });
 
